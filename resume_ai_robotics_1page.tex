@@ -1,0 +1,208 @@
+%-------------------------
+% AI Robotics Resume - One Page
+% Author : Achal Patel
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, linkcolor=linkblue, urlcolor=linkblue, citecolor=linkblue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[charter]{mathdesign}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+% Define custom blue colors to match PDF
+\definecolor{headerblue}{RGB}{37, 150, 190}
+\definecolor{linkblue}{RGB}{0,0,238}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins for one page
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\color{black}
+}{}{0em}{}[\color{headerblue}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Achal Patel} \\ \vspace{1pt}
+    \small \faPhone\ 438-979-5673 $|$ 
+    \href{mailto:Achalypatel3403@gmail.com}{\faEnvelope\ \underline{Achalypatel3403@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/achal-patel}{\faLinkedin\ \underline{linkedin.com/achal-patel}} $|$
+    \href{https://github.com/ac-pate}{\faGithub\ \underline{github.com/ac-pate}}
+\end{center}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{AI/ML \& Robotics}{: TensorFlow, PyTorch, OpenCV, Media Pipe, ROS2 (Gazebo \& Rviz), SLAM, Reinforcement Learning, Computer Vision, Object Detection, Sensor Fusion, TinyML, PID Control Systems} \\
+     \textbf{Programming}{: Python, C/C++, MATLAB, VHDL, SystemVerilog, ARM Assembly} \\
+     \textbf{Embedded Systems}{: Free RTOS, ESP-IDF, ARM Microcontrollers, UART/SPI/I2C, PCB Design} \\
+     \textbf{Tools}{: Docker, Git, Jenkins, Fusion360, KiCad, MQTT, Node-Red, Pytest, 3D Printing} \\
+    }}
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Validation Engineering \& Semiconductor Design Intern}{Sept 2024 -- Dec 2024}
+      {Microchip Technology Inc.}{Montreal, QC}
+      \resumeItemListStart
+        \resumeItem{Validated hardware for \href{https://www.ieee802.org/3/bs/public/index.html}{800G Ethernet PHYs} with \href{https://www.ieee802.org/3/bs/public/index.html}{112G PAM4 SerDes} using SystemVerilog and Pytest for test automation}
+        \resumeItem{Gained expertise in fault-tolerant systems, hardware verification, CI/CD pipelines, and Linux deployment for large-scale projects}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://ieeesbconcordia.com/projects}{Vice President of Projects, IEEE Concordia}}{June 2024 -- Present}
+      {Concordia University}{Montreal, QC}
+      \resumeItemListStart
+        \resumeItem{Lead multiple robotics project teams, mentoring students in embedded systems, AI/ML, and hardware design}
+        \resumeItem{Manage project funding, recruitment, and technical direction for autonomous robotics initiatives}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate Teaching Assistant -- SOEN 228 \& COEN 313}{May 2024 -- Present}
+      {Concordia University}{Montreal, QC}
+      \resumeItemListStart
+        \resumeItem{Taught embedded systems design (RISC CPU, microcontrollers) and FPGA programming (VHDL, FSMs)}
+        \resumeItem{Guided students through robotics projects involving C++ embedded programming and real-time control systems}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{AI Robotics Projects}
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/ac-pate/6-axis-robotic-arm}{6-Axis Robotic Arm using ROS2}} $|$ \emph{Python, C++, ROS2, TensorFlow, OpenCV, Jetson Nano}}{Sept 2024 -- Ongoing}
+          \resumeItemListStart
+            \resumeItem{Leading development of modular 6-DOF robotic arm with custom cycloidal actuators and closed-loop control}
+            \resumeItem{Implementing inverse kinematics solver, ML-based object detection \& computer vision for real-time manipulation}
+            \resumeItem{Optimized inference on Jetson Nano for real-time object tracking and end-effector alignment in 3D space}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Autonomous Forest Fire Prevention Drone} $|$ \emph{Python, C++, TinyML, OpenCV, Mediapipe}}{July 2024 -- Ongoing}
+          \resumeItemListStart
+            \resumeItem{Built autonomous drone with GPS pathfinding, optical flow altitude hold, and FPV head-tracking gimbal}
+            \resumeItem{Implemented computer vision for fire detection \& obstacle avoidance using Mediapipe and custom PID tuning}
+            \resumeItem{Developed TinyML gesture control system on microcontroller for intuitive drone control modes}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/ac-pate/iot-automation}{IoT Smart Lab Automation}} $|$ \emph{Python, TensorFlow, MQTT, Node-Red, CORAL TPU}}{Sep 2024 -- Dec 2024}
+          \resumeItemListStart
+            \resumeItem{Deployed self-hosted IoT network with ML object detection running on CORAL TPU for lab safety automation}
+            \resumeItem{Automated lab routines using real-time sensor data and computer vision for intelligent device control}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Autonomous Hovercraft \& Sumo Robot} $|$ \emph{C++, Embedded Systems, UART/SPI/I2C, PCB Design}}{Jan -- Apr 2024}
+          \resumeItemListStart
+            \resumeItem{Designed autonomous vehicles with maze-solving algorithms (95\% success rate) and real-time sensor fusion}
+            \resumeItem{Engineered custom PCBs, state machines, and embedded C++ for precision control and rapid prototyping}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Concordia University}{Montreal, QC}
+      {Bachelor of Engineering -- Computer Engineering Co-op}{2022 -- 2026 (Expected)}
+    \resumeItemListStart
+        \resumeItem{\textbf{Relevant Courses:} Computer Vision, Machine Learning, Controls Systems, Digital Signal Processing, Robotics}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------ACHIEVEMENTS-----------
+\section{Awards \& Competitions}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{2nd Place} -- CQI 2025 (Quebec Engineering Competition) $|$
+     \textbf{Winner} -- MakeUofT 2024 Hardware Hackathon \\
+     \textbf{Winner} -- Englymics 2024 (CQI Qualifiers) $|$
+     \textbf{3rd Place} -- Autonomous Hovercraft Competition \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}

@@ -1,0 +1,303 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Achal Patel
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, linkcolor=linkblue, urlcolor=linkblue, citecolor=linkblue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[charter]{mathdesign}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+% Define custom blue colors to match PDF
+\definecolor{headerblue}{RGB}{37,150,190}
+\definecolor{linkblue}{RGB}{0,0,238}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\color{black}
+}{}{0em}{}[\color{headerblue}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Achal Patel} \\ \vspace{1pt}
+    \small \faPhone\ 438-979-5673 $|$ 
+    \href{mailto:Achalypatel3403@gmail.com}{\faEnvelope\ \underline{Achalypatel3403@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/achal-patel}{\faLinkedin\ \underline{linkedin.com/achal-patel}} $|$
+    \href{https://github.com/ac-pate}{\faGithub\ \underline{github.com/ac-pate}}
+\end{center}
+
+
+%-----------SUMMARY OF SKILLS-----------
+\section{Summary of Skills and Qualifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Platforms}{: Fusion360 • Visual Studio • VS Code • Platform IO • ESP-IDF • Jira • Jenkins • Docker Compose • MongoDB • MATLAB • Simulink • KiCad • JetBrains suite.} \\
+     \textbf{Programming}{: C • C++ • C\# • Python • Java • VHDL • SystemVerilog • ARM Assembly • YAML} \\
+     \textbf{Libraries}{: Media Pipe • TensorFlow • Hugging Face • Open CV • NumPy • Matplotlib • SciPy • Pandas • Free RTOS} \\
+     \textbf{Others}{: ROS2(Gazebo \& Rviz Simulation) • Docker • Git Bash • Pytest • 3D Printing • MQTT • Node-Red} \\
+     \textbf{Currently ongoing}{: SLAM • Reinforcement Learning • ML • Sensor Fusion • TinyML • PID Control Systems} \\
+     \textbf{Languages}{: English, (Spoken \& Written) • French (Beginner A1 certified)} \\
+    }}
+ \end{itemize}
+
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Robotics Research Intern (CUARL --- CRAWLR Rover)}{May 2025 -- Dec 2025}
+      {Concordia University Aerospace Robotics Lab (CUARL)}{Montreal, QC}
+      \resumeItemListStart
+        \resumeItem{Worked on \textbf{CRAWLR (Concordia Robotic Articulated Wheel-Legged Rover)}, an experimental space-rover platform for push--pull locomotion research in unstructured planetary terrain; \textbf{full-time (May--Aug)} then \textbf{part-time (Sep--Dec)}.}
+        \resumeItem{Brought up and stabilized a ROS2 control stack for motor control over CAN (EPOS4), including ros2\_control/ros2\_controllers integration and a \textbf{Virtual CAN} workflow with ros2\_canopen to enable hardware-identical testing without the rover.}
+        \resumeItem{Improved simulation/hardware switching by implementing \textbf{Xacro conditional plugin loading} and launch-time arguments, removing manual config edits when moving between Gazebo and real hardware.}
+        \resumeItem{Built and documented a complete \textbf{Xbox joystick teleoperation package}: Joy $\rightarrow$ Twist $\rightarrow$ diff-drive/skid-steer solver $\rightarrow$ Float64MultiArray $\rightarrow$ CAN; validated in Gazebo and on hardware during field trials.}
+        \resumeItem{Implemented perception-based position tracking for closed-loop experiments using \href{https://www.stereolabs.com/docs/}{ZED2/ZED SDK} and \href{https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html}{ArUco markers}; achieved \textbf{~20--30 Hz} tracking and piped outputs into ROS2 message types for integration into a teammate's Simulink control stack.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Validation Engineering and Semiconductor design Intern}{Sept 2024 -- Dec 2024}
+      {Microchip Technology Inc.}{Montreal, QC}
+      \resumeItemListStart
+        \resumeItem{Collaborated with engineers in validating hardware for \href{https://www.ieee802.org/3/bs/public/index.html}{800G Ethernet PHYs} with \href{https://www.ieee802.org/3/bs/public/index.html}{112G PAM4 SerDes} used for high-speed data centers, and designing test scenarios using Pytest to ensure compliance with \href{https://standards.ieee.org/}{IEEE's standards}.}
+        \resumeItem{Gained in-depth knowledge in Error Detection, Ethernet Frames and the OSI model, with a strong focus on the MAC \& PHY layers, particularly the PCS (Physical Coding Sublayer) for encoding/decoding of the data.}
+        \resumeItem{Received comprehensive training on \href{https://www.nasa.gov/}{NASA's HPSC} (High-Performance Spaceflight Computing) project, involving SystemVerilog for hardware verification, and fault-tolerant systems to mitigate SEUs (\href{https://en.wikipedia.org/wiki/Single-event_upset}{Single-Event Upsets})}
+        \resumeItem{During this internship, I gained expertise in large-scale projects, hardware design, fault injection, regression testing, Git, CI/CD pipelines and extensive Linux experience for deployment, testing, and system management.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate Teaching Assistant}{May 2024 -- Present}
+      {Concordia University}{Montreal, QC}
+      \resumeItemListStart
+        \resumeItem{\href{https://www.concordia.ca/academics/undergraduate/calendar/current/section-71-gina-cody-school-of-engineering-and-computer-science/department-of-software-engineering.html}{SOEN 228} (System Hardware): Taught tutorial classes and project-oriented lab sessions, guiding students in building a 4-bit RISC CPU on a breadboard with logic gates, flip flops, timers, shift registers and a microcontroller.}
+        \resumeItem{\href{https://www.concordia.ca/academics/undergraduate/calendar/current/section-71-gina-cody-school-of-engineering-and-computer-science/department-of-computer-science-and-software-engineering.html}{COEN 313} (Digital Systems Design II [FPGA]): Conducted lab sessions, teaching VHDL programming, from basic constructs to RT-level design, covering combinational and sequential circuits, FSMs, and FPGA basics.}
+        \resumeItem{\href{https://www.concordia.ca/academics/undergraduate/calendar/current/section-71-gina-cody-school-of-engineering-and-computer-science/department-of-mechanical-industrial-and-aerospace-engineering.html}{MIAE 215} (Programming for Mechanical and Industrial Engineers): Tutored student C++ and embedded programming for microcontrollers in tutorials and guided with an robotics project with in the lab sessions}
+        \resumeItem{Developed websites to educate with curated videos, resources, notes, and exam tips to help students succeed.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROFESSIONAL ASSOCIATIONS-----------
+\section{Professional Associations \& Volunteer Work}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://ieeesbconcordia.com/projects}{Vice President of Projects}}{June 2024 -- Present}
+      {IEEE Concordia student branch}{Concordia University}
+      \resumeItemListStart
+        \resumeItem{Manage multiple project teams as a Project Manager, leading the planning and execution of initiatives created by me to engage students from beginner to advanced levels, ensuring hands-on learning and skill development}
+        \resumeItem{Mentoring less-experienced students in various techniques (programming, electronics, CADing, soldering, circuit design, and IT networking), guiding them through challenges and helping the team achieve tangible results.}
+        \resumeItem{Drive recruitment by creating onboarding materials, conducting interviews, and integrating new recruits efficiently into the team. I also secure critical project funding and ensure all members get the resources needed.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Engineering Workshops Instructor}{October 2023 -- Present}
+      {Concordia University}{Montreal, QC}
+      \resumeItemListStart
+        \resumeItem{Created two Interactive workshops on Intro to 3D Modeling and 3D Printing with Fusion360 and Intro to Microcontrollers with ESP32, teaching university students practical skills in design and embedded systems.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Vice President of Marketing}{Sep 2023 -- Apr 2024}
+      {IEEE Concordia student branch}{Concordia University}
+      \resumeItemListStart
+        \resumeItem{Led the marketing team through a successful rebranding of IEEE Concordia's social media, doubling Instagram followers in 8 months through strategic content creation and event promotion for 20+ workshops/events.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{CRAWLR Rover (CUARL)} $|$ \emph{ROS2, MoveIt2, Gazebo, CAN, ZED2, OpenCV}}{May 2025 -- Dec 2025}
+          \resumeItemListStart
+            \resumeItem{Developed a reusable simulation\textless{}-\textgreater{}hardware workflow for a wheel-legged space-rover testbed using Virtual CAN and ROS2 control, enabling safer iteration on mobility/control logic.}
+            \resumeItem{Implemented launch-time simulation/hardware switching via Xacro conditional plugin loading; reduced integration friction and improved reliability for lab-wide testing.}
+            \resumeItem{Built and validated a joystick teleoperation stack and perception-based position tracking (ZED2 SDK + ArUco) to support closed-loop experiments and data collection.}
+          \resumeItemListEnd
+    
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/ac-pate/6-axis-robotic-arm}{6-Axis Robotic Arm using ROS}} $|$ \emph{Personal, IEEE Concordia}}{Sept 2024 -- Ongoing}
+          \resumeItemListStart
+            \resumeItem{Leading a multidisciplinary team of 6, MECH, ELEC, and SOEN students in developing a modular, 3D-printed, 6-DOF robotic arm with a custom cycloidal actuator, overseeing task assignments, project decisions, and ROS setup.}
+            \resumeItem{Developing a ROS2 framework for a precise closed-loop controller, inverse kinematic solver for 3D space retracing and end-effector alignment using ML-based object detection \& computer vision on Jetson Nano to optimize real-time inference performance.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Autonomous Forest fire prevention Drone} $|$ \emph{Personal, IEEE Concordia + Competition}}{July 2024 -- Ongoing}
+          \resumeItemListStart
+            \resumeItem{Building a custom drone featuring GPS-based mission planning \& pathfinding, altitude hold using optical flow, and FPV head-tracking gimbal. Integrating , PID tuning, and sensor data filtering for enhanced flight stability.}
+            \resumeItem{Competing in the NARC UAV competition with a focus on creating an autonomous drone designed for forest fire prevention and safety missions, utilizing computer vision with Mediapipe for fire detection \& obstacle avoidance.}
+            \resumeItem{Implementing gesture control using TinyML on a Microcontroller as a personal challenge, allowing the drone to switch between FPV head-tracking mode and gesture-controlled mode when not using FPV.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/ac-pate/iot-automation}{The IoT Automation Project}} $|$ \emph{Personal, IEEE Concordia}}{Sep 2024 -- Dec 2024}
+          \resumeItemListStart
+            \resumeItem{Led the transformation of the club's workshop into a smart lab with a team of 6, developing a fully self-hosted IoT network using WIFI, Zigbee, MQTT, InfluxDB, on our own servers, eliminating reliance on cloud services.}
+            \resumeItem{Made our own Wifi and Zigbee based IoT devices and sensors all connected through a unified automation system on Home Assistant, creating optimized automations through Node-Red, and enabled voice control via Alexa.}
+            \resumeItem{Enhanced lab safety and functionality with an ML object detection Object running on camera feeds and running inference on a CORAL TPU, automating lab routines to control devices like lights, soldering irons, and cabinet locks based on real-time data, while ensuring network security all throughout this smart security system.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Autonomous Sumo Robot} $|$ \emph{Personal + Competition}}{Feb -- Mar 2024}
+          \resumeItemListStart
+            \resumeItem{Engineered a Sumo robot with precision in design using Advanced CADing and 3D printing for rapid prototyping.}
+            \resumeItem{Proficient in embedded C++ programming, state machine, UART, SPI, I2C protocols, and custom PCB design}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Autonomous Hovercraft} $|$ \emph{Academic + Competition}}{Jan -- Apr 2024}
+          \resumeItemListStart
+            \resumeItem{Led a team of six, overseeing all aspects of the project while also handling Design and Component selection.}
+            \resumeItem{Aided the team in learning GitHub to better ensure version control and seamless collaboration, furthermore implemented maze-solving algorithms in C using US sensor and IMU, achieving a 95\% success rate.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Concordia University}{Montreal, QC}
+      {Bachelor of Engineering -- Computer Engineering Co-op}{2022 -- 2026 (Expected)}
+    \resumeItemListStart
+        \resumeItem{Relevant courses: C++ OOP • Data structures and algorithms • Computer architecture and Software • Continuous \& Discrete Time Signals and Systems • Controls System • Digital Electronics • Probability \& Statistics}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+  
+%-----------COMPETITIONS-----------
+\section{Competitions}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://cqi.qc.ca/}{CQI 2025} -- Quebec Engineering Competition}{January 2025}
+      {2nd Place}{Montreal, QC}
+
+    \resumeSubheading
+      {\href{https://englymics.com/}{Englymics 2024} -- Quebec Engineering Competition Qualifiers}{October 2024}
+      {Winner}{Montreal, QC}
+
+    \resumeSubheading
+      {ENGR 290 Competition -- Autonomous Hovercraft Class Competition}{April 2024}
+      {3rd Place}{Montreal, QC}
+
+    \resumeSubheading
+      {\href{https://robowars.ca/}{Robowars 2024} -- Autonomous Sumo Robot Competition}{March 2024}
+      {4th Place}{Montreal, QC}
+
+    \resumeSubheading
+      {\href{https://makeuoft.ca/}{MakeUofT 2024} -- Hardware-based Hackathon at UofT}{February 2024}
+      {Winner}{Toronto, ON}
+
+    \resumeSubheading
+      {ConUHacks VIII -- Montreal's biggest hackathon}{January 2024}
+      {Participant}{Montreal, QC}
+
+    \resumeSubheading
+      {\href{https://ieeextreme.org/}{IEEExtreme} -- Global Programming Competition}{October 2023}
+      {Participant}{Online}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------INTERESTS-----------
+\section{Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     Autonomous Robotics • Rocket Avionics • Embedded Programming • Drones (UAVs) • Cybersecurity • IoT Systems \\
+     Movies • Photography and filmmaking • Personal Finance • Investing • Traveling • Gardening • Eng. Competitions
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
