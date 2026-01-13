@@ -1,0 +1,36 @@
+# Ignore analysis folder
+analysis/
+
+# Ignore repository folders
+new_repo/
+old_repo/
+
+# LaTeX build artifacts (keep source .tex and final .pdf)
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
