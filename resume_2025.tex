@@ -131,10 +131,11 @@
       {Concordia University Aerospace Robotics Lab (CUARL)}{Montreal, QC}
       \resumeItemListStart
         \resumeItem{Worked on \textbf{CRAWLR (Concordia Robotic Articulated Wheel-Legged Rover)}, an experimental space-rover platform for push--pull locomotion research in unstructured planetary terrain; full-time (May--Aug) then part-time (Sep--Dec)}
-        \resumeItem{Brought up and stabilized ROS2 motion controllers for motor control over CAN (EPOS4), integrating ros2\_control/ros2\_controllers with Virtual CAN workflow using ros2\_canopen to enable hardware-identical testing without the physical rover}
+        \resumeItem{Developed manipulator planning using MoveIt 2 for the rover's inching motion, including simulation setup and integration with the control pipeline to transition from simulation to real motor control via Virtual CAN hardware}
         \resumeItem{Implemented Xacro conditional plugin loading and launch-time arguments for seamless simulation/hardware switching, removing manual config edits and streamlining development workflow for the entire team}
         \resumeItem{Built complete Xbox joystick teleoperation package with pipeline: Joy $\rightarrow$ Twist $\rightarrow$ diff-drive/skid-steer solver $\rightarrow$ Float64MultiArray $\rightarrow$ CAN; validated in Gazebo and on hardware during field trials}
-        \resumeItem{Implemented perception-based position estimation for closed-loop experiments using \href{https://www.stereolabs.com/docs/}{ZED2/ZED SDK} and \href{https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html}{ArUco markers}, achieving 20--30 Hz estimation with ROS2 message type integration for Simulink control stack}
+        \resumeItem{Designed and implemented onboard position feedback system enabling closed-loop control: initially attempted ArUco marker-based tracking with external stationary camera, then migrated to Jetson Xavier with Docker containers running ROS2, mounting camera onboard for real-time inference and high-accuracy position tracking}
+        \resumeItem{Integrated position feedback with ROS2 infrastructure, enabling wired and wireless data collection from the Jetson; researchers previously relied on open-loop control and required this feedback system to implement closed-loop motion algorithms for experimental validation}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -169,8 +170,9 @@
       {IEEE Concordia student branch}{Concordia University}
       \resumeItemListStart
         \resumeItem{Manage multiple project teams as a Project Manager, leading the planning and execution of initiatives created by me to engage students from beginner to advanced levels, ensuring hands-on learning and skill development}
-        \resumeItem{Mentoring less-experienced students in various techniques (programming, electronics, CADing, soldering, circuit design, and IT networking), guiding them through challenges and helping the team achieve tangible results.}
-        \resumeItem{Drive recruitment by creating onboarding materials, conducting interviews, and integrating new recruits efficiently into the team. I also secure critical project funding and ensure all members get the resources needed.}
+        \resumeItem{Mentoring less-experienced students in various techniques (programming, electronics, CADing, soldering, circuit design, and IT networking), guiding them through challenges and helping the team achieve tangible results}
+        \resumeItem{Drive recruitment by creating onboarding materials, conducting interviews, and integrating new recruits efficiently into the team; secured over \$11,000 in funding from university, IEEE Montreal, and industry partners to support 6+ active technical projects}
+        \resumeItem{Oversee multidisciplinary project portfolio including robotics (drones, robotic arms, sumo bots), electronics (32-bit multicore CPU design in VHDL), IoT infrastructure (smart lab with Home Assistant, Zigbee, MQTT), and embedded systems; formed competition teams for MakeUofT, Englympic, QEC, CEC, and Robowars}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -195,34 +197,46 @@
     \resumeSubHeadingListStart
 
       \resumeProjectHeading
-          {\textbf{CRAWLR Rover (CUARL)} $|$ \emph{ROS2, MoveIt2, Gazebo, CAN, ZED2, OpenCV}}{May 2025 -- Dec 2025}
+          {\textbf{MIMIC Robotics --- Bimanual Mobile Robots for Imitation Learning} $|$ \emph{Capstone, Concordia-McGill Collaboration}}{Sept 2025 -- Present}
           \resumeItemListStart
-            \resumeItem{Developed a reusable simulation\textless{}-\textgreater{}hardware workflow for a wheel-legged space-rover testbed using Virtual CAN and ROS2 control, enabling safer iteration on mobility/control logic.}
-            \resumeItem{Implemented launch-time simulation/hardware switching via Xacro conditional plugin loading; reduced integration friction and improved reliability for lab-wide testing.}
-            \resumeItem{Built and validated a joystick teleoperation stack and perception-based position tracking (ZED2 SDK + ArUco) to support closed-loop experiments and data collection.}
+            \resumeItem{Co-leading interdisciplinary capstone project with McGill Mobile Robotics Lab (MRL) to develop bimanual mobile robots that learn tasks through imitation, bridging low-cost research platforms and industrial-grade systems}
+            \resumeItem{Building low-cost platform with Mecanum base and dual SO-101 arms for rapid VLA model experimentation, while simultaneously restoring MOVO industrial robot (Kinova Jaco arms) for validation on high-end hardware}
+            \resumeItem{Developing custom teleoperation system for data collection and implementing behavior cloning pipelines using LeRobot framework for Vision-Language-Action (VLA) model training}
           \resumeItemListEnd
-    
+
       \resumeProjectHeading
-          {\textbf{\href{https://github.com/ac-pate/6-axis-robotic-arm}{6-Axis Robotic Arm using ROS}} $|$ \emph{Personal, IEEE Concordia}}{Sept 2024 -- Ongoing}
+          {\textbf{Haptic Navigation Wearable for Visually Impaired Users} $|$ \emph{MakeUofT 2025 Hackathon}}{Feb 2025}
           \resumeItemListStart
-            \resumeItem{Leading a multidisciplinary team of 6, MECH, ELEC, and SOEN students in developing a modular, 3D-printed, 6-DOF robotic arm with a custom cycloidal actuator, overseeing task assignments, project decisions, and ROS setup.}
-            \resumeItem{Developing a ROS2 framework for a precise closed-loop controller, inverse kinematic solver for 3D space retracing and end-effector alignment using ML-based object detection \& computer vision on Jetson Nano to optimize real-time inference performance.}
+            \resumeItem{Built wearable navigation system combining Intel RealSense depth sensing, YOLO v12 World for runtime-configurable object detection, OpenAI Whisper for voice commands, and haptic feedback motors for directional guidance}
+            \resumeItem{Integrated four AI/ML subsystems (vision, depth, speech, detection) on Jetson Nano with Arduino-controlled haptic motors, creating end-to-end prototype in 24-hour hackathon that enables users to locate objects through touch-based navigation}
           \resumeItemListEnd
-          
+
       \resumeProjectHeading
-          {\textbf{Autonomous Forest fire prevention Drone} $|$ \emph{Personal, IEEE Concordia + Competition}}{July 2024 -- Ongoing}
+          {\textbf{RNA Folding Prediction --- Custom Transformer Architecture} $|$ \emph{Academic, COEN 432}}{Fall 2025}
           \resumeItemListStart
-            \resumeItem{Building a custom drone featuring GPS-based mission planning \& pathfinding, altitude hold using optical flow, and FPV head-tracking gimbal. Integrating , PID tuning, and sensor data filtering for enhanced flight stability.}
-            \resumeItem{Competing in the NARC UAV competition with a focus on creating an autonomous drone designed for forest fire prevention and safety missions, utilizing computer vision with Mediapipe for fire detection \& obstacle avoidance.}
-            \resumeItem{Implementing gesture control using TinyML on a Microcontroller as a personal challenge, allowing the drone to switch between FPV head-tracking mode and gesture-controlled mode when not using FPV.}
+            \resumeItem{Designed and implemented DeepResUNet-Transformer hybrid from scratch to predict RNA 3D folding patterns, achieving highest F1 score in class of PhD and Master's students}
+            \resumeItem{Built custom transformer attention mechanism and ResNet-U-Net encoder-decoder architecture in PyTorch, conducting extensive hyperparameter sweeps and training dynamics analysis to optimize for imbalanced base-pair prediction task}
           \resumeItemListEnd
-          
+
+      \resumeProjectHeading
+          {\textbf{Extended Kalman Filter --- IMU/GNSS Sensor Fusion} $|$ \emph{Academic, ELEC 484}}{Fall 2025}
+          \resumeItemListStart
+            \resumeItem{Implemented Extended Kalman Filter from scratch in MATLAB for real-time vehicle position estimation, fusing IMU and GNSS measurements to handle sensor noise and uncertainty propagation}
+            \resumeItem{Extracted vehicle trajectory from raw IMU/INS data and computed motion parameters, achieving accurate position estimation through proper state-space modeling and sensor fusion techniques}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Autonomous Hovering Drone} $|$ \emph{Personal, IEEE Concordia}}{July 2024 -- Nov 2024}
+          \resumeItemListStart
+            \resumeItem{Built custom drone with autonomous hover capability using optical flow sensor for altitude hold, ArduPilot firmware, and custom PID tuning for stable flight}
+            \resumeItem{Integrated sensor filtering and flight control systems, implementing GPS-based mission planning and FPV head-tracking gimbal for enhanced flight stability and autonomous operation}
+          \resumeItemListEnd
+
       \resumeProjectHeading
           {\textbf{\href{https://github.com/ac-pate/iot-automation}{The IoT Automation Project}} $|$ \emph{Personal, IEEE Concordia}}{Sep 2024 -- Dec 2024}
           \resumeItemListStart
-            \resumeItem{Led the transformation of the club's workshop into a smart lab with a team of 6, developing a fully self-hosted IoT network using WIFI, Zigbee, MQTT, InfluxDB, on our own servers, eliminating reliance on cloud services.}
-            \resumeItem{Made our own Wifi and Zigbee based IoT devices and sensors all connected through a unified automation system on Home Assistant, creating optimized automations through Node-Red, and enabled voice control via Alexa.}
-            \resumeItem{Enhanced lab safety and functionality with an ML object detection Object running on camera feeds and running inference on a CORAL TPU, automating lab routines to control devices like lights, soldering irons, and cabinet locks based on real-time data, while ensuring network security all throughout this smart security system.}
+            \resumeItem{Led team of 6 in transforming club workshop into smart lab with self-hosted IoT network using WiFi, Zigbee, MQTT, and Home Assistant, eliminating cloud dependencies}
+            \resumeItem{Developed custom IoT devices and sensors with ML object detection on CORAL TPU for automated lab routines, integrating voice control via Alexa and optimized automations through Node-RED}
           \resumeItemListEnd
 
       \resumeProjectHeading
