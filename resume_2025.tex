@@ -130,21 +130,21 @@
       {Robotics Research Intern (CUARL --- CRAWLR Rover)}{May 2025 -- Dec 2025}
       {Concordia University Aerospace Robotics Lab (CUARL)}{Montreal, QC}
       \resumeItemListStart
-        \resumeItem{Worked on \textbf{CRAWLR (Concordia Robotic Articulated Wheel-Legged Rover)}, an experimental space-rover platform for push--pull locomotion research in unstructured planetary terrain; \textbf{full-time (May--Aug)} then \textbf{part-time (Sep--Dec)}.}
-        \resumeItem{Brought up and stabilized a ROS2 control stack for motor control over CAN (EPOS4), including ros2\_control/ros2\_controllers integration and a \textbf{Virtual CAN} workflow with ros2\_canopen to enable hardware-identical testing without the rover.}
-        \resumeItem{Improved simulation/hardware switching by implementing \textbf{Xacro conditional plugin loading} and launch-time arguments, removing manual config edits when moving between Gazebo and real hardware.}
-        \resumeItem{Built and documented a complete \textbf{Xbox joystick teleoperation package}: Joy $\rightarrow$ Twist $\rightarrow$ diff-drive/skid-steer solver $\rightarrow$ Float64MultiArray $\rightarrow$ CAN; validated in Gazebo and on hardware during field trials.}
-        \resumeItem{Implemented perception-based position tracking for closed-loop experiments using \href{https://www.stereolabs.com/docs/}{ZED2/ZED SDK} and \href{https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html}{ArUco markers}; achieved \textbf{~20--30 Hz} tracking and piped outputs into ROS2 message types for integration into a teammate's Simulink control stack.}
+        \resumeItem{Worked on \textbf{CRAWLR (Concordia Robotic Articulated Wheel-Legged Rover)}, an experimental space-rover platform for push--pull locomotion research in unstructured planetary terrain; full-time (May--Aug) then part-time (Sep--Dec)}
+        \resumeItem{Brought up and stabilized ROS2 motion controllers for motor control over CAN (EPOS4), integrating ros2\_control/ros2\_controllers with Virtual CAN workflow using ros2\_canopen to enable hardware-identical testing without the physical rover}
+        \resumeItem{Implemented Xacro conditional plugin loading and launch-time arguments for seamless simulation/hardware switching, removing manual config edits and streamlining development workflow for the entire team}
+        \resumeItem{Built complete Xbox joystick teleoperation package with pipeline: Joy $\rightarrow$ Twist $\rightarrow$ diff-drive/skid-steer solver $\rightarrow$ Float64MultiArray $\rightarrow$ CAN; validated in Gazebo and on hardware during field trials}
+        \resumeItem{Implemented perception-based position estimation for closed-loop experiments using \href{https://www.stereolabs.com/docs/}{ZED2/ZED SDK} and \href{https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html}{ArUco markers}, achieving 20--30 Hz estimation with ROS2 message type integration for Simulink control stack}
       \resumeItemListEnd
 
     \resumeSubheading
       {Validation Engineering and Semiconductor design Intern}{Sept 2024 -- Dec 2024}
       {Microchip Technology Inc.}{Montreal, QC}
       \resumeItemListStart
-        \resumeItem{Collaborated with engineers in validating hardware for \href{https://www.ieee802.org/3/bs/public/index.html}{800G Ethernet PHYs} with \href{https://www.ieee802.org/3/bs/public/index.html}{112G PAM4 SerDes} used for high-speed data centers, and designing test scenarios using Pytest to ensure compliance with \href{https://standards.ieee.org/}{IEEE's standards}.}
-        \resumeItem{Gained in-depth knowledge in Error Detection, Ethernet Frames and the OSI model, with a strong focus on the MAC \& PHY layers, particularly the PCS (Physical Coding Sublayer) for encoding/decoding of the data.}
-        \resumeItem{Received comprehensive training on \href{https://www.nasa.gov/}{NASA's HPSC} (High-Performance Spaceflight Computing) project, involving SystemVerilog for hardware verification, and fault-tolerant systems to mitigate SEUs (\href{https://en.wikipedia.org/wiki/Single-event_upset}{Single-Event Upsets})}
-        \resumeItem{During this internship, I gained expertise in large-scale projects, hardware design, fault injection, regression testing, Git, CI/CD pipelines and extensive Linux experience for deployment, testing, and system management.}
+        \resumeItem{Validated hardware for \href{https://www.ieee802.org/3/bs/public/index.html}{800G Ethernet PHYs} with \href{https://www.ieee802.org/3/bs/public/index.html}{112G PAM4 SerDes} for high-speed data centers, designing test scenarios using Pytest to ensure \href{https://standards.ieee.org/}{IEEE standards} compliance}
+        \resumeItem{Gained deep knowledge in Error Detection, Ethernet Frames, and OSI model with focus on MAC \& PHY layers, particularly PCS (Physical Coding Sublayer) for encoding/decoding}
+        \resumeItem{Received training on \href{https://www.nasa.gov/}{NASA's HPSC} (High-Performance Spaceflight Computing) project, using SystemVerilog for hardware verification and fault-tolerant systems to mitigate \href{https://en.wikipedia.org/wiki/Single-event_upset}{SEUs} (Single-Event Upsets)}
+        \resumeItem{Gained expertise in large-scale project management, hardware design, fault injection, regression testing, Git with Bitbucket, CI/CD on Jenkins, and extensive Linux experience for deployment, testing, and system management}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -177,7 +177,7 @@
       {Engineering Workshops Instructor}{October 2023 -- Present}
       {Concordia University}{Montreal, QC}
       \resumeItemListStart
-        \resumeItem{Created Several Interactive workshops on Ntro to Robotics,Intro to 3D Modeling & Printing with Fusion360 and Intro to Microcontrollers with ESP32, teaching university & CEGEP students practical skills in design, Programming and embedded systems.}
+        \resumeItem{Created Several Interactive workshops on Intro to Robotics, Intro to 3D Modeling \& Printing with Fusion360 and Intro to Microcontrollers with ESP32, teaching university \& CEGEP students practical skills in design, Programming and embedded systems.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -256,37 +256,17 @@
   
 %-----------COMPETITIONS-----------
 \section{Competitions}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {\href{https://cqi.qc.ca/}{CQI 2025} -- Quebec Engineering Competition}{January 2025}
-      {2nd Place}{Montreal, QC}
-
-    \resumeSubheading
-      {\href{https://englymics.com/}{Englymics 2024} -- Quebec Engineering Competition Qualifiers}{October 2024}
-      {Winner}{Montreal, QC}
-
-    \resumeSubheading
-      {ENGR 290 Competition -- Autonomous Hovercraft Class Competition}{April 2024}
-      {3rd Place}{Montreal, QC}
-
-    \resumeSubheading
-      {\href{https://robowars.ca/}{Robowars 2024} -- Autonomous Sumo Robot Competition}{March 2024}
-      {4th Place}{Montreal, QC}
-
-    \resumeSubheading
-      {\href{https://makeuoft.ca/}{MakeUofT 2024} -- Hardware-based Hackathon at UofT}{February 2024}
-      {Winner}{Toronto, ON}
-
-    \resumeSubheading
-      {ConUHacks VIII -- Montreal's biggest hackathon}{January 2024}
-      {Participant}{Montreal, QC}
-
-    \resumeSubheading
-      {\href{https://ieeextreme.org/}{IEEExtreme} -- Global Programming Competition}{October 2023}
-      {Participant}{Online}
-
-  \resumeSubHeadingListEnd
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{2nd Place}, \href{https://cqi.qc.ca/}{CQI 2025 -- Quebec Engineering Competition} (Jan 2025) $|$
+     \textbf{Winner}, \href{https://englymics.com/}{Englymics 2024 -- Quebec Engineering Competition Qualifiers} (Oct 2024) $|$
+     \textbf{3rd Place}, ENGR 290 Competition -- Autonomous Hovercraft Class Competition (Apr 2024) $|$
+     \textbf{4th Place}, \href{https://robowars.ca/}{Robowars 2024 -- Autonomous Sumo Robot Competition} (Mar 2024) \\
+     \textbf{Winner}, \href{https://makeuoft.ca/}{MakeUofT 2024 -- Hardware-based Hackathon at UofT} (Feb 2024) $|$
+     ConUHacks VIII -- Montreal's biggest hackathon (Jan 2024) $|$
+     \href{https://ieeextreme.org/}{IEEExtreme -- Global Programming Competition} (Oct 2023)
+    }}
+ \end{itemize}
 
 
 %-----------INTERESTS-----------
