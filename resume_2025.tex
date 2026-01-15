@@ -111,12 +111,12 @@
 \section{Summary of Skills and Qualifications}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Platforms}{: Fusion360 • MATLAB • Simulink • Hugging Face • LeRobot • Kaggle • Docker • Docker Compose  • VS Code • Platform IO • ESP-IDF • KiCad • Jira • Jenkins • Linux } \\
+     \textbf{Tools}{: Docker • Git • MATLAB/Simulink • Pytest • ESP-IDF • Hugging Face • Kaggle • KiCad • Jira • Jenkins • Linux } \\
      \textbf{Programming}{: C • C++  • Python • Java • VHDL • SystemVerilog • ARM Assembly • ReactJS • Bash} \\
      \textbf{Libraries}{: PyTorch • TensorFlow • MediaPipe • OpenCV • YOLO • NumPy • Matplotlib • SciPy • Pandas • Free RTOS} \\
-     \textbf{Others}{: ROS2 • MoveIt2 • Nav2 • ros2\_canopen • ros2\_localization  • ros2\_control • SQL • Git Bash •  Pytest • ArUco } \\
+     \textbf{Others}{: ROS2 • MoveIt2 • Nav2 • ros2\_canopen • ros2\_localization  • ros2\_control • LeRobot • SQL • ArUco } \\
      \textbf{Currently ongoing}{: VLA (Visual Language Action models) • Bimanual Dexterity • MPC (Model Predictive Control) • SLAM } \\
-     \textbf{Languages}{: English, (Spoken \& Written) • French (Beginner A1 certified)} \\
+     \textbf{Languages}{: English (Spoken \& Written) • French (Beginner A1 certified)} \\
     }}
  \end{itemize}
 
@@ -127,14 +127,14 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Robotics Research Intern (CUARL --- CRAWLR Rover)}{May 2025 -- Dec 2025}
+      {Robotics Research Intern (CUARL --- CRAWLR Project)}{May 2025 -- Dec 2025}
       {Concordia University Aerospace Robotics Lab (CUARL)}{Montreal, QC}
       \resumeItemListStart
-        \resumeItem{Learned MoveIt2 for trajectory solving and planning for articulated wheel legged rover. Created simulator environment in ROS2 Gazebo with virtual motor controllers using ros2\_canopen's virtual CAN to pass real CAN messages simulating real motors. Set up virtual CAN hardware and implemented inching motion solver using MoveIt2 for the massive codebase}
-        \resumeItem{Created Xbox joystick teleoperation package that sends twist commands to the solver, enabling realtime user control of the robot. Validated in Gazebo simulation then hardware field tests}
-        \resumeItem{Designed and implemented onboard position feedback system enabling closed-loop control for researchers: Initially attempted ArUco marker-based tracking with external camera off board stationary; }
-        \resumeItem{migrated to onboard mounting ZED camera onboard for real-time inference on Jetson Xavier with Docker setup to run ros2 on old deprecated hardware. Implemented perception-based position estimation package using ZED SDK. This feedback system was key input for closed-loop controller algorithms used by researchers to collect experiment data}
-      \resumeItemListEnd
+        \resumeItem{Learned MoveIt2 for trajectory solving and planning for articulated wheel legged rover. Created sim. env. in Gazebo with ros2\_canopen's VirtualCAN to pass real CAN messages to simulate real motors.}
+        \resumeItem{Created Xbox joystick teleoperation package that sends twist commands to the solver, enabling realtime user control of the rover. Validated in Gazebo sim. then real hardware test}
+        \resumeItem{Designed and implemented an onboard position feedback system for closed-loop control, initially prototyping offboard ArUco marker based tracking with a stationary camera, then migrating to an onboard ZED stereo camera for real time state estimation running on a Jetson Xavier via Docker and the ZED SDK}
+        \resumeItem{Enabled repeatable and measurable experimentation by delivering reliable perception based position estimates as a key feedback input to closed-loop control algorithms, directly supporting researchers in collecting valid experimental data}
+        \resumeItemListEnd
 
     \resumeSubheading
       {Validation Engineering and Semiconductor design Intern}{Sept 2024 -- Dec 2024}
@@ -172,8 +172,8 @@
             \resumeItem{Built low-cost platform 
             with Mecanum base and dual SO-101 arms for rapid VLA model experimentation, while simultaneously restoring Kinova MOVO bimanual mobile robot with Jaco arms for validation on Jetson AGX}
             
-            \resumeItem{Developing custom teleop leader arms for realtime EEF control for data collection using LeRobot framework for VLA models such as Pi0, X-VLA, and NVIDIA Groot and other behavior cloning policies like ACT and diffusion}
-            \resumeItem{Secured ~{\textdollar 20,000}  in funding from various sources and sponsors}
+            \resumeItem{Developing custom teleop leader arms for realtime EEF control for data collection using LeRobot framework for VLA models such as $\pi_0$, X-VLA, and NVIDIA Groot and other behavior cloning policies like ACT and diffusion}
+            \resumeItem{Helped secured close to {\textdollar 20,000}  in funding for the Capstone Project from various sources and sponsors}
           \resumeItemListEnd
 
       \resumeProjectHeading
@@ -186,9 +186,9 @@
       \resumeProjectHeading
           {\textbf{RNA Folding Prediction --- Custom Transformer Architecture} $|$ \emph{Academic, COEN 432}}{Fall 2025}
           \resumeItemListStart
-            \resumeItem{Designed and implemented DeepResUNet-Transformer hybrid  model architecture for the class project from scratch to predict 2D RNA folding patterns, achieving highest F1 score in class of PhD and Master's students}
-            \resumeItem{Built custom transformer attention mechanism and ResNet-U-Net encoder-decoder architecture in PyTorch, conducting extensive hyperparameter sweeps and training dynamics analysis to optimize for imbalanced base-pair prediction task}
-          \resumeItemListEnd
+            \resumeItem{Designed Hybrid architecture from scratch combining DeepResUNetSE (15.3M params with SE attention, residual blocks, dilated convolutions) and custom Transformer with learned fusion layer for 2D RNA contact map prediction.}
+            \resumeItem{Achieved highest F1 score (0.75 single model, 0.768 ensemble) in class of PhD/Master's students, winning the Kaggle Competetion, through hyperparameter optimization,  solving 187:1 class imbalance and long-range dependencies}
+        \resumeItemListEnd
 
       \resumeProjectHeading
           {\textbf{Extended Kalman Filter --- IMU/GNSS Sensor Fusion} $|$ \emph{Academic, ELEC 473}}{Fall 2025}
@@ -209,11 +209,11 @@
             \resumeItem{Built 24-hour hackathon wearable navigation system prototype integrating \textbf{Intel RealSense} depth, \textbf{YOLO World} for runtime-configurable object detection, \textbf{OpenAI Whisper} for voice commands, and haptic feedback motors for directional guidance, inferencing on Jetson Nano, enabling users to locate objects through vision-based navigation}
           \resumeItemListEnd
 
-      % \resumeProjectHeading
-      %     {\textbf{\href{https://github.com/ac-pate/iot-automation}{The IoT Automation Project}} $|$ \emph{Personal, IEEE Concordia}}{Sep 2024 -- Dec 2024}
-      %     \resumeItemListStart
-      %       \resumeItem{\textbf{Led team of 6 in transforming club workshop into smart lab} with self-hosted IoT network using WiFi, Zigbee, MQTT, and Home Assistant, eliminating cloud dependencies. Developed custom IoT devices and sensors with ML object detection on CORAL TPU for automated lab routines, integrating voice control via Alexa and Node-RED automations}
-      %     \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/ac-pate/iot-automation}{The IoT Automation Project}} $|$ \emph{Personal, IEEE Concordia}}{Sep 2024 -- Dec 2024}
+          \resumeItemListStart
+            \resumeItem{\textbf{Led team of 6 in transforming club workshop into smart lab} with self-hosted IoT network using WiFi, Zigbee, MQTT, and Home Assistant, eliminating cloud dependencies. Developed custom IoT devices and sensors with ML object detection on CORAL TPU for automated lab routines, integrating voice control via Alexa and Node-RED automations}
+          \resumeItemListEnd
 
       \resumeProjectHeading
           {\textbf{Autonomous Hovering Drone} $|$ \emph{Personal, IEEE Concordia}}{July 2024 -- Nov 2024}
