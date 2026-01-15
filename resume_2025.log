@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  14 JAN 2026 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  14 JAN 2026 20:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -651,6 +651,10 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}]
+Overfull \hbox (41.59909pt too wide) in alignment at lines 190--190
+[] [] 
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -668,21 +672,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
  ***********
 Package rerunfilecheck Info: File `resume_2025.out' has not changed.
-(rerunfilecheck)             Checksum: D0CDAA00D0BF99E8D9E5BEB2A32B60BD;986.
+(rerunfilecheck)             Checksum: 33B6B7B8C770195BB9B375DB55FA6F07;1040.
  ) 
 Here is how much of TeX's memory you used:
- 16536 strings out of 467538
- 276001 string characters out of 5423724
- 695212 words of memory out of 5000000
- 45186 multiletter control sequences out of 15000+600000
+ 16538 strings out of 467538
+ 276061 string characters out of 5423724
+ 693213 words of memory out of 5000000
+ 45188 multiletter control sequences out of 15000+600000
  683529 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,542b,655s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri8t.pfb>
-Output written on resume_2025.pdf (3 pages, 86573 bytes).
+ 75i,11n,79p,542b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb>
+Output written on resume_2025.pdf (3 pages, 88793 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

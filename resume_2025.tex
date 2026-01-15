@@ -111,11 +111,11 @@
 \section{Summary of Skills and Qualifications}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Platforms}{: Fusion360 • Visual Studio • VS Code • Platform IO • ESP-IDF • Jira • Jenkins • Docker Compose • SQL • MATLAB • Simulink • KiCad • JetBrains suite.} \\
-     \textbf{Programming}{: C • C++  • Python • Java • VHDL • SystemVerilog • ARM Assembly • YAML} \\
-     \textbf{Libraries}{: PyTorch • TensorFlow • MediaPipe • OpenCV • NumPy • Matplotlib • SciPy • Pandas • Free RTOS } \\
-     \textbf{Others}{: ROS2(Gazebo \& Rviz Simulation) • Control Systems • Docker • Git Bash • Hugging Face •  Pytest • 3D Printing • MQTT } \\
-     \textbf{Currently ongoing}{: SLAM • Reinforcement Learning • ML • Sensor Fusion • TinyML • MPC } \\
+     \textbf{Platforms}{: Fusion360 • Visual Studio • VS Code • Platform IO • ESP-IDF • Jira • Jenkins • Docker Compose • SQL • MATLAB • Simulink • KiCad • JetBrains suite • Hugging Face • Linux • Docker} \\
+     \textbf{Programming}{: C • C++  • Python • Java • VHDL • SystemVerilog • ARM Assembly • YAML • Bash} \\
+     \textbf{Libraries}{: PyTorch • TensorFlow • MediaPipe • OpenCV • NumPy • Matplotlib • SciPy • Pandas • Free RTOS • LeRobot • YOLO} \\
+     \textbf{Others}{: ROS2(Gazebo \& Rviz Simulation) • Control Systems • Docker • Git Bash • Hugging Face •  Pytest • 3D Printing • MQTT • VLA Models • Behavior Cloning • MoveIt2 • Nav2 • ros2\_canopen • ArUco • ZED SDK • Intel RealSense • ros2\_localization} \\
+     \textbf{Currently ongoing}{: VLA (Visual Language Action models) • Bimanual Dexterity • MPC (Model Predictive Control) • TinyML } \\
      \textbf{Languages}{: English, (Spoken \& Written) • French (Beginner A1 certified)} \\
     }}
  \end{itemize}
@@ -130,12 +130,9 @@
       {Robotics Research Intern (CUARL --- CRAWLR Rover)}{May 2025 -- Dec 2025}
       {Concordia University Aerospace Robotics Lab (CUARL)}{Montreal, QC}
       \resumeItemListStart
-        \resumeItem{Worked on \textbf{CRAWLR (Concordia Robotic Articulated Wheel-Legged Rover)}, an experimental space-rover platform for push--pull locomotion research in unstructured planetary terrain; full-time (May--Aug) then part-time (Sep--Dec)}
-        \resumeItem{Developed manipulator planning using MoveIt 2 for the rover's inching motion, including simulation setup and integration with the control pipeline to transition from simulation to real motor control via Virtual CAN hardware}
-        \resumeItem{Implemented Xacro conditional plugin loading and launch-time arguments for seamless simulation/hardware switching, removing manual config edits and streamlining development workflow for the entire team}
-        \resumeItem{Built complete Xbox joystick teleoperation package with pipeline: Joy $\rightarrow$ Twist $\rightarrow$ diff-drive/skid-steer solver $\rightarrow$ Float64MultiArray $\rightarrow$ CAN; validated in Gazebo and on hardware during field trials}
-        \resumeItem{Designed and implemented onboard position feedback system enabling closed-loop control: initially attempted ArUco marker-based tracking with external stationary camera, then migrated to Jetson Xavier with Docker containers running ROS2, mounting camera onboard for real-time inference and high-accuracy position tracking}
-        \resumeItem{Integrated position feedback with ROS2 infrastructure, enabling wired and wireless data collection from the Jetson; researchers previously relied on open-loop control and required this feedback system to implement closed-loop motion algorithms for experimental validation}
+        \resumeItem{Learned MoveIt2 for trajectory solving and planning for articulated wheel legged rover. Created simulator environment in ROS2 Gazebo with virtual motor controllers using ros2\_canopen's virtual CAN to pass real CAN messages simulating real motors. Set up virtual CAN hardware and implemented inching motion solver using MoveIt2 for the massive codebase}
+        \resumeItem{Created Xbox joystick teleoperation package that sends twist commands to the solver, enabling realtime user control of the robot. Validated in Gazebo simulation then hardware field tests}
+        \resumeItem{Designed and implemented onboard position feedback system enabling closed-loop control for researchers: Initially attempted ArUco marker-based tracking with external camera off board stationary; migrated to onboard mounting ZED camera onboard for real-time inference on Jetson Xavier with Docker setup to run ros2 on old deprecated hardware. Implemented perception-based position estimation package using ZED SDK. This feedback system was key input for closed-loop controller algorithms used by researchers to collect experiment data}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -161,37 +158,6 @@
   \resumeSubHeadingListEnd
 
 
-%-----------PROFESSIONAL ASSOCIATIONS-----------
-\section{Professional Associations \& Volunteer Work}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {\href{https://ieeesbconcordia.com/projects}{Vice President of Projects}}{June 2024 -- Present}
-      {IEEE Concordia student branch}{Concordia University}
-      \resumeItemListStart
-        \resumeItem{Manage multiple project teams as a Project Manager, leading the planning and execution of initiatives created by me to engage students from beginner to advanced levels, ensuring hands-on learning and skill development}
-        \resumeItem{Mentoring less-experienced students in various techniques (programming, electronics, CADing, soldering, circuit design, and IT networking), guiding them through challenges and helping the team achieve tangible results}
-        \resumeItem{Drive recruitment by creating onboarding materials, conducting interviews, and integrating new recruits efficiently into the team; secured over \$11,000 in funding from university, IEEE Montreal, and industry partners to support 6+ active technical projects}
-        \resumeItem{Oversee multidisciplinary project portfolio including robotics (drones, robotic arms, sumo bots), electronics (32-bit multicore CPU design in VHDL), IoT infrastructure (smart lab with Home Assistant, Zigbee, MQTT), and embedded systems; formed competition teams for MakeUofT, Englympic, QEC, CEC, and Robowars}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Engineering Workshops Instructor}{October 2023 -- Present}
-      {Concordia University}{Montreal, QC}
-      \resumeItemListStart
-        \resumeItem{Created Several Interactive workshops on Intro to Robotics, Intro to 3D Modeling \& Printing with Fusion360 and Intro to Microcontrollers with ESP32, teaching university \& CEGEP students practical skills in design, Programming and embedded systems.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Vice President of Marketing}{Sep 2023 -- Apr 2024}
-      {IEEE Concordia student branch}{Concordia University}
-      \resumeItemListStart
-        \resumeItem{Led the marketing team through a successful rebranding of IEEE Concordia's social media, doubling Instagram followers in 8 months through strategic content creation and event promotion for 20+ workshops/events.}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
@@ -199,16 +165,17 @@
       \resumeProjectHeading
           {\textbf{MIMIC Robotics --- Bimanual Mobile Robots for Imitation Learning} $|$ \emph{Capstone, Concordia-McGill Collaboration}}{Sept 2025 -- Present}
           \resumeItemListStart
-            \resumeItem{Co-leading interdisciplinary capstone project with McGill Mobile Robotics Lab (MRL) to develop bimanual mobile robots that learn tasks through imitation, bridging low-cost research platforms and industrial-grade systems}
-            \resumeItem{Building low-cost platform with Mecanum base and dual SO-101 arms for rapid VLA model experimentation, while simultaneously restoring MOVO industrial robot (Kinova Jaco arms) for validation on high-end hardware}
-            \resumeItem{Developing custom teleoperation system for data collection and implementing behavior cloning pipelines using LeRobot framework for Vision-Language-Action (VLA) model training}
+            \resumeItem{Secured upwards of {\textdollar 20,000} worth of funding for the undergraduate capstone project through various sources and sponsors}
+            \resumeItem{Co-leading interdisciplinary capstone project in partnership with McGill Mobile Robotics Lab to work on imitation learning research on bimanual mobile robots and create low-cost industry-grade teleoperation arm systems}
+            \resumeItem{Built low-cost platform with Mecanum base and dual SO-101 arms for rapid VLA model experimentation, while simultaneously restoring Kinova MOVO industrial robot with Jaco arms for validation on high-end hardware}
+            \resumeItem{Developing custom teleoperation systems for data collection using LeRobot framework and Vision-Language-Action models such as Pi0, X-VLA, and NVIDIA Groot and other behavior cloning policies from ACT to diffusion}
           \resumeItemListEnd
 
       \resumeProjectHeading
-          {\textbf{Haptic Navigation Wearable for Visually Impaired Users} $|$ \emph{MakeUofT 2025 Hackathon}}{Feb 2025}
+          {\textbf{LeRobot --- Intro to Imitation Learning} $|$ \emph{Personal}}{Summer 2025}
           \resumeItemListStart
-            \resumeItem{Built wearable navigation system combining Intel RealSense depth sensing, YOLO v12 World for runtime-configurable object detection, OpenAI Whisper for voice commands, and haptic feedback motors for directional guidance}
-            \resumeItem{Integrated four AI/ML subsystems (vision, depth, speech, detection) on Jetson Nano with Arduino-controlled haptic motors, creating end-to-end prototype in 24-hour hackathon that enables users to locate objects through touch-based navigation}
+            \resumeItem{Explored imitation learning fundamentals, Vision-Language-Action (VLA) models, and the Hugging Face robotics ecosystem to understand how robots learn from human demonstrations}
+            \resumeItem{Set up and experimented with the LeRobot framework, learning data collection pipelines, behavior cloning, and Action Chunking Transformers (ACT) architecture for policy training, laying foundation for MIMIC capstone project}
           \resumeItemListEnd
 
       \resumeProjectHeading
@@ -221,39 +188,58 @@
       \resumeProjectHeading
           {\textbf{Extended Kalman Filter --- IMU/GNSS Sensor Fusion} $|$ \emph{Academic, ELEC 484}}{Fall 2025}
           \resumeItemListStart
-            \resumeItem{Implemented Extended Kalman Filter from scratch in MATLAB for real-time vehicle position estimation, fusing IMU and GNSS measurements to handle sensor noise and uncertainty propagation}
-            \resumeItem{Extracted vehicle trajectory from raw IMU/INS data and computed motion parameters, achieving accurate position estimation through proper state-space modeling and sensor fusion techniques}
+            \resumeItem{Implemented Extended Kalman Filter from scratch in MATLAB for real-time vehicle position estimation, fusing IMU and GNSS measurements to handle sensor noise and uncertainty propagation. Extracted vehicle trajectory from raw IMU/INS data and computed motion parameters, achieving accurate position estimation through proper state-space modeling and sensor fusion techniques}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{RoboWars 2025 --- Autonomous Sumo Robots} $|$ \emph{Competition}}{Feb -- Mar 2025}
+          \resumeItemListStart
+            \resumeItem{\textbf{Back with Vengeance}: Built sumo robot with brushless motors controlled by VESCs, Time-of-Flight sensors for opponent detection, Teensy 4.0 microcontroller, and finite state machine architecture for autonomous operation}
+            \resumeItem{\textbf{Definitely Overkill}: Developed advanced sumo robot with Jetson Orin Nano, Intel RealSense depth camera, YOLO-based opponent detection, and point cloud processing for enhanced situational awareness and strategic positioning}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Haptic Navigation Wearable for Visually Impaired Users} $|$ \emph{MakeUofT 2025 Hackathon}}{Feb 2025}
+          \resumeItemListStart
+            \resumeItem{Built wearable navigation system combining Intel RealSense depth sensing, YOLO v12 World for runtime-configurable object detection, OpenAI Whisper for voice commands, and haptic feedback motors for directional guidance. Integrated four AI/ML subsystems (vision, depth, speech, detection) on Jetson Nano with Arduino-controlled haptic motors, creating end-to-end prototype in 24-hour hackathon that enables users to locate objects through touch-based navigation}
           \resumeItemListEnd
 
       \resumeProjectHeading
           {\textbf{Autonomous Hovering Drone} $|$ \emph{Personal, IEEE Concordia}}{July 2024 -- Nov 2024}
           \resumeItemListStart
-            \resumeItem{Built custom drone with autonomous hover capability using optical flow sensor for altitude hold, ArduPilot firmware, and custom PID tuning for stable flight}
-            \resumeItem{Integrated sensor filtering and flight control systems, implementing GPS-based mission planning and FPV head-tracking gimbal for enhanced flight stability and autonomous operation}
+            \resumeItem{Built custom drone with autonomous hover capability using optical flow sensor for altitude hold, ArduPilot firmware, and custom PID tuning for stable flight. Integrated sensor filtering and flight control systems, implementing GPS-based mission planning and FPV head-tracking gimbal for enhanced flight stability and autonomous operation}
           \resumeItemListEnd
 
       \resumeProjectHeading
           {\textbf{\href{https://github.com/ac-pate/iot-automation}{The IoT Automation Project}} $|$ \emph{Personal, IEEE Concordia}}{Sep 2024 -- Dec 2024}
           \resumeItemListStart
-            \resumeItem{Led team of 6 in transforming club workshop into smart lab with self-hosted IoT network using WiFi, Zigbee, MQTT, and Home Assistant, eliminating cloud dependencies}
-            \resumeItem{Developed custom IoT devices and sensors with ML object detection on CORAL TPU for automated lab routines, integrating voice control via Alexa and optimized automations through Node-RED}
+            \resumeItem{Led team of 6 in transforming club workshop into smart lab with self-hosted IoT network using WiFi, Zigbee, MQTT, and Home Assistant, eliminating cloud dependencies. Developed custom IoT devices and sensors with ML object detection on CORAL TPU for automated lab routines, integrating voice control via Alexa and optimized automations through Node-RED}
           \resumeItemListEnd
 
-      \resumeProjectHeading
-          {\textbf{Autonomous Sumo Robot} $|$ \emph{Personal + Competition}}{Feb -- Mar 2024}
-          \resumeItemListStart
-            \resumeItem{Engineered a Sumo robot with precision in design using Advanced CADing and 3D printing for rapid prototyping.}
-            \resumeItem{Proficient in embedded C++ programming, state machine, UART, SPI, I2C protocols, and custom PCB design}
-          \resumeItemListEnd
-
-      \resumeProjectHeading
-          {\textbf{Autonomous Hovercraft} $|$ \emph{Academic + Competition}}{Jan -- Apr 2024}
-          \resumeItemListStart
-            \resumeItem{Led a team of six, overseeing all aspects of the project while also handling Design and Component selection.}
-            \resumeItem{Aided the team in learning GitHub to better ensure version control and seamless collaboration, furthermore implemented maze-solving algorithms in C using US sensor and IMU, achieving a 95\% success rate.}
-          \resumeItemListEnd
+      \
 
     \resumeSubHeadingListEnd
+
+
+%-----------PROFESSIONAL ASSOCIATIONS-----------
+\section{Professional Associations \& Volunteer Work}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://ieeesbconcordia.com/projects}{Vice President of Projects}}{June 2024 -- Present}
+      {IEEE Concordia student branch}{Concordia University}
+      \resumeItemListStart
+        \resumeItem{Lead project teams and manage initiatives engaging students from beginner to advanced levels; secured over {\textdollar 11,000} in funding from university, IEEE Montreal, and industry partners}
+        \resumeItem{Project leadership: Autonomous Hovering Drone project and IoT Automation Project, mentoring students in programming, electronics, CAD, and embedded systems}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Engineering Workshops Instructor}{October 2023 -- Present}
+      {Concordia University}{Montreal, QC}
+      \resumeItemListStart
+        \resumeItem{Created Several Interactive workshops on \textbf{Intro to Robotics}, \textbf{Intro to 3D Modeling \& Printing with Fusion360} and \textbf{Intro to Microcontrollers with ESP32}, teaching beginner university students and CEGEP students practical skills in design, Programming and embedded systems.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
 
 
 %-----------EDUCATION-----------
@@ -263,24 +249,35 @@
       {Concordia University}{Montreal, QC}
       {Bachelor of Engineering -- Computer Engineering Co-op}{2022 -- 2026 (Expected)}
     \resumeItemListStart
-        \resumeItem{Relevant courses: C++ OOP • Data structures and algorithms • Computer architecture and Software • Continuous \& Discrete Time Signals and Systems • Controls System • Digital Electronics • Probability \& Statistics}
+        \resumeItem{Relevant courses: Mobile Robotics • Machine Learning • Applied Machine Learning • Real-time Operating Systems • C++ OOP • Data structures and algorithms • Computer architecture and Software • Continuous \& Discrete Time Signals and Systems • Modern Control Theory}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
   
-%-----------COMPETITIONS-----------
-\section{Competitions}
- \begin{itemize}[leftmargin=0.15in, label={}]
+%-----------AWARDS & COMPETITIONS-----------
+\section{Awards \& Competitions}
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{2nd Place}, \href{https://cqi.qc.ca/}{CQI 2025 -- Quebec Engineering Competition} (Jan 2025) $|$
-     \textbf{Winner}, \href{https://englymics.com/}{Englymics 2024 -- Quebec Engineering Competition Qualifiers} (Oct 2024) $|$
-     \textbf{3rd Place}, ENGR 290 Competition -- Autonomous Hovercraft Class Competition (Apr 2024) $|$
-     \textbf{4th Place}, \href{https://robowars.ca/}{Robowars 2024 -- Autonomous Sumo Robot Competition} (Mar 2024) \\
-     \textbf{Winner}, \href{https://makeuoft.ca/}{MakeUofT 2024 -- Hardware-based Hackathon at UofT} (Feb 2024) $|$
-     ConUHacks VIII -- Montreal's biggest hackathon (Jan 2024) $|$
-     \href{https://ieeextreme.org/}{IEEExtreme -- Global Programming Competition} (Oct 2023)
+      Innovation Fund, Concordia University --- \$10,000 \hfill (Dec 2025) \\
+      Winner, Canadian Engineering Competition (CEC) --- National Champions \hfill (Mar 2025) \\
+      2nd Place, CQI 2025 --- Quebec Engineering Competition \hfill (Jan 2025) \\
+      Winner, Englympics 2024 --- Quebec Engineering Competition Qualifiers \hfill (Oct 2024)
     }}
- \end{itemize}
+  \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \href{https://robowars.ca/}{RoboWars} (2024, 2025) \\
+      \href{https://makeuoft.ca/}{MakeUofT} (2024, 2025) \\
+      ENGR 290 Hovercraft \\
+      ConUHacks VIII \\
+      \href{https://ieeextreme.org/}{IEEExtreme}
+    }}
+  \end{itemize}
+\end{minipage}
 
 
 %-----------INTERESTS-----------
