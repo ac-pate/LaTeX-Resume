@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1768447962.87658 "d:/Desktop/Concordia/COOP/Internship #3/resume/resume_2025.tex" "resume_2025.pdf" "resume_2025" 1768447964.9989 0
+["pdflatex"] 1768451663.28439 "d:/Desktop/Concordia/COOP/Internship #3/resume/resume_2025.tex" "resume_2025.pdf" "resume_2025" 1768451665.20031 0
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1765764873 2920 d63721872b8c77041b88e51b8f7c291d ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1765764873 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1765764873 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -135,10 +135,10 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1765768563 5587484 30eee748fa419a911c40b0c750dd21ba ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1765768887 3635706 cad406f7a3ce3417d788d88687fc5f0b ""
   "c:/texlive/2025/texmf.cnf" 1765768520 713 e69b156964470283e0530f5060668171 ""
-  "d:/Desktop/Concordia/COOP/Internship #3/resume/resume_2025.tex" 1768447961 17467 eae732d55d8333456091ec1083b1ca18 ""
-  "resume_2025.aux" 1768447964 1101 dadcd129ed88fd3d608cac7b61fdd2c0 "pdflatex"
-  "resume_2025.out" 1768447964 1040 af52597062e05f85f6cacd6ef494f819 "pdflatex"
-  "resume_2025.tex" 1768447961 17467 eae732d55d8333456091ec1083b1ca18 ""
+  "d:/Desktop/Concordia/COOP/Internship #3/resume/resume_2025.tex" 1768451658 16973 36c2d2236101a8ae977dd084f3a649f6 ""
+  "resume_2025.aux" 1768451664 1101 a1533e29205a54df77da5474f3529faf "pdflatex"
+  "resume_2025.out" 1768451664 1040 af52597062e05f85f6cacd6ef494f819 "pdflatex"
+  "resume_2025.tex" 1768451658 16973 36c2d2236101a8ae977dd084f3a649f6 ""
   (generated)
   "resume_2025.aux"
   "resume_2025.log"
