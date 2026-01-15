@@ -111,11 +111,11 @@
 \section{Summary of Skills and Qualifications}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Platforms}{: Fusion360 • Visual Studio • VS Code • Platform IO • ESP-IDF • Jira • Jenkins • Docker Compose • SQL • MATLAB • Simulink • KiCad • JetBrains suite • Hugging Face • Linux • Docker} \\
-     \textbf{Programming}{: C • C++  • Python • Java • VHDL • SystemVerilog • ARM Assembly • YAML • Bash} \\
-     \textbf{Libraries}{: PyTorch • TensorFlow • MediaPipe • OpenCV • NumPy • Matplotlib • SciPy • Pandas • Free RTOS • LeRobot • YOLO} \\
-     \textbf{Others}{: ROS2(Gazebo \& Rviz Simulation) • Control Systems • Docker • Git Bash • Hugging Face •  Pytest • 3D Printing • MQTT • VLA Models • Behavior Cloning • MoveIt2 • Nav2 • ros2\_canopen • ArUco • ZED SDK • Intel RealSense • ros2\_localization} \\
-     \textbf{Currently ongoing}{: VLA (Visual Language Action models) • Bimanual Dexterity • MPC (Model Predictive Control) • TinyML } \\
+     \textbf{Platforms}{: Fusion360 • MATLAB • Simulink • Hugging Face • LeRobot • Kaggle • Docker • Docker Compose  • VS Code • Platform IO • ESP-IDF • KiCad • Jira • Jenkins • Linux } \\
+     \textbf{Programming}{: C • C++  • Python • Java • VHDL • SystemVerilog • ARM Assembly • ReactJS • Bash} \\
+     \textbf{Libraries}{: PyTorch • TensorFlow • MediaPipe • OpenCV • YOLO • NumPy • Matplotlib • SciPy • Pandas • Free RTOS} \\
+     \textbf{Others}{: ROS2 • MoveIt2 • Nav2 • ros2\_canopen • ros2\_localization  • ros2\_control • SQL • Git Bash •  Pytest • ArUco } \\
+     \textbf{Currently ongoing}{: VLA (Visual Language Action models) • Bimanual Dexterity • MPC (Model Predictive Control) • SLAM } \\
      \textbf{Languages}{: English, (Spoken \& Written) • French (Beginner A1 certified)} \\
     }}
  \end{itemize}
@@ -132,7 +132,8 @@
       \resumeItemListStart
         \resumeItem{Learned MoveIt2 for trajectory solving and planning for articulated wheel legged rover. Created simulator environment in ROS2 Gazebo with virtual motor controllers using ros2\_canopen's virtual CAN to pass real CAN messages simulating real motors. Set up virtual CAN hardware and implemented inching motion solver using MoveIt2 for the massive codebase}
         \resumeItem{Created Xbox joystick teleoperation package that sends twist commands to the solver, enabling realtime user control of the robot. Validated in Gazebo simulation then hardware field tests}
-        \resumeItem{Designed and implemented onboard position feedback system enabling closed-loop control for researchers: Initially attempted ArUco marker-based tracking with external camera off board stationary; migrated to onboard mounting ZED camera onboard for real-time inference on Jetson Xavier with Docker setup to run ros2 on old deprecated hardware. Implemented perception-based position estimation package using ZED SDK. This feedback system was key input for closed-loop controller algorithms used by researchers to collect experiment data}
+        \resumeItem{Designed and implemented onboard position feedback system enabling closed-loop control for researchers: Initially attempted ArUco marker-based tracking with external camera off board stationary; }
+        \resumeItem{migrated to onboard mounting ZED camera onboard for real-time inference on Jetson Xavier with Docker setup to run ros2 on old deprecated hardware. Implemented perception-based position estimation package using ZED SDK. This feedback system was key input for closed-loop controller algorithms used by researchers to collect experiment data}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -163,25 +164,28 @@
     \resumeSubHeadingListStart
 
       \resumeProjectHeading
-          {\textbf{MIMIC Robotics --- Bimanual Mobile Robots for Imitation Learning} $|$ \emph{Capstone, Concordia-McGill Collaboration}}{Sept 2025 -- Present}
+          {\textbf{MIMIC Capstone --- Bimanual Mobile Robotics for Imitation Learning} $|$ \emph{Concordia-McGill Collaboration}}{Sept 2025 -- Present}
           \resumeItemListStart
-            \resumeItem{Secured upwards of {\textdollar 20,000} worth of funding for the undergraduate capstone project through various sources and sponsors}
+            
             \resumeItem{Co-leading interdisciplinary capstone project in partnership with McGill Mobile Robotics Lab to work on imitation learning research on bimanual mobile robots and create low-cost industry-grade teleoperation arm systems}
-            \resumeItem{Built low-cost platform with Mecanum base and dual SO-101 arms for rapid VLA model experimentation, while simultaneously restoring Kinova MOVO industrial robot with Jaco arms for validation on high-end hardware}
+            
+            \resumeItem{Built low-cost platform 
+            with Mecanum base and dual SO-101 arms for rapid VLA model experimentation, while simultaneously restoring Kinova MOVO industrial robot with Jaco arms for validation on high-end hardware}
             \resumeItem{Developing custom teleoperation systems for data collection using LeRobot framework and Vision-Language-Action models such as Pi0, X-VLA, and NVIDIA Groot and other behavior cloning policies from ACT to diffusion}
+            \resumeItem{Secured upwards of {\textdollar 20,000} worth of funding for the undergraduate capstone project through various sources and sponsors}
           \resumeItemListEnd
 
       \resumeProjectHeading
           {\textbf{LeRobot --- Intro to Imitation Learning} $|$ \emph{Personal}}{Summer 2025}
           \resumeItemListStart
-            \resumeItem{Explored imitation learning fundamentals, Vision-Language-Action (VLA) models, and the Hugging Face robotics ecosystem to understand how robots learn from human demonstrations}
+            \resumeItem{Explored imitation learning fundamentals, VLA models, and the Hugging Face robotics ecosystem to understand how robots learn from human demonstrations}
             \resumeItem{Set up and experimented with the LeRobot framework, learning data collection pipelines, behavior cloning, and Action Chunking Transformers (ACT) architecture for policy training, laying foundation for MIMIC capstone project}
           \resumeItemListEnd
 
       \resumeProjectHeading
           {\textbf{RNA Folding Prediction --- Custom Transformer Architecture} $|$ \emph{Academic, COEN 432}}{Fall 2025}
           \resumeItemListStart
-            \resumeItem{Designed and implemented DeepResUNet-Transformer hybrid from scratch to predict RNA 3D folding patterns, achieving highest F1 score in class of PhD and Master's students}
+            \resumeItem{Designed and implemented DeepResUNet-Transformer hybrid  model architecture from scratch to predicting 2D RNA folding patterns, achieving highest F1 score in class of PhD and Master's students}
             \resumeItem{Built custom transformer attention mechanism and ResNet-U-Net encoder-decoder architecture in PyTorch, conducting extensive hyperparameter sweeps and training dynamics analysis to optimize for imbalanced base-pair prediction task}
           \resumeItemListEnd
 
@@ -216,8 +220,6 @@
             \resumeItem{Led team of 6 in transforming club workshop into smart lab with self-hosted IoT network using WiFi, Zigbee, MQTT, and Home Assistant, eliminating cloud dependencies. Developed custom IoT devices and sensors with ML object detection on CORAL TPU for automated lab routines, integrating voice control via Alexa and optimized automations through Node-RED}
           \resumeItemListEnd
 
-      \
-
     \resumeSubHeadingListEnd
 
 
@@ -249,7 +251,7 @@
       {Concordia University}{Montreal, QC}
       {Bachelor of Engineering -- Computer Engineering Co-op}{2022 -- 2026 (Expected)}
     \resumeItemListStart
-        \resumeItem{Relevant courses: Mobile Robotics • Machine Learning • Applied Machine Learning • Real-time Operating Systems • C++ OOP • Data structures and algorithms • Computer architecture and Software • Continuous \& Discrete Time Signals and Systems • Modern Control Theory}
+        \resumeItem{Relevant courses: Autonomy for Mobile Robots • Applied Machine Learning • Modern Control Theory • C++ OOP • Data structures and algorithms • Computer architecture and Software • Continuous \& Discrete Time Signals and Systems }
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -259,7 +261,7 @@
 \begin{minipage}[t]{0.48\textwidth}
   \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-      Innovation Fund, Concordia University --- \$10,000 \hfill (Dec 2025) \\
+      Innovation Fund, Concordia University -- {\textdollar 10,000} \hfill (Dec 2025) \\
       Winner, Canadian Engineering Competition (CEC) --- National Champions \hfill (Mar 2025) \\
       2nd Place, CQI 2025 --- Quebec Engineering Competition \hfill (Jan 2025) \\
       Winner, Englympics 2024 --- Quebec Engineering Competition Qualifiers \hfill (Oct 2024)
