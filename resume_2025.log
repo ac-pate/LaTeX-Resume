@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  22 JAN 2026 00:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  22 JAN 2026 00:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -643,6 +643,10 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 133.
 
+Overfull \hbox (42.5687pt too wide) in alignment at lines 167--167
+[] [] 
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -673,16 +677,16 @@ Package rerunfilecheck Info: File `resume_2025.out' has not changed.
 Here is how much of TeX's memory you used:
  16541 strings out of 467538
  276086 string characters out of 5423724
- 697213 words of memory out of 5000000
+ 696213 words of memory out of 5000000
  45188 multiletter control sequences out of 15000+600000
  684377 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,542b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,542b,719s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb>
-Output written on resume_2025.pdf (3 pages, 91208 bytes).
+Output written on resume_2025.pdf (3 pages, 91184 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
