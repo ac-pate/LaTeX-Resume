@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  22 JAN 2026 02:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  22 JAN 2026 02:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -671,13 +671,13 @@ Package rerunfilecheck Info: File `resume_2025.out' has not changed.
 Here is how much of TeX's memory you used:
  16540 strings out of 467538
  276080 string characters out of 5423724
- 697213 words of memory out of 5000000
+ 698213 words of memory out of 5000000
  45188 multiletter control sequences out of 15000+600000
  684377 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,542b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb>
-Output written on resume_2025.pdf (2 pages, 92859 bytes).
+Output written on resume_2025.pdf (2 pages, 92862 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams
