@@ -130,10 +130,10 @@
       {Robotics Research Intern (CUARL --- CRAWLR Project)}{May 2025 -- Dec 2025}
       {Concordia University Aerospace Robotics Lab (CUARL)}{Montreal, QC}
       \resumeItemListStart
-        \resumeItem{Learned MoveIt2 for trajectory solving and planning for articulated wheel legged rover. Created sim. env. in Gazebo with ros2\_canopen's VirtualCAN to pass real CAN messages to simulate real motors.}
-        \resumeItem{Created Xbox joystick teleoperation package that sends twist commands to the solver, enabling realtime user control of the rover. Validated in Gazebo sim. then real hardware test}
-        \resumeItem{Designed and implemented an onboard position feedback system for closed-loop control, initially prototyping offboard ArUco marker based tracking with a stationary camera, then migrating to an onboard ZED stereo camera for real time state estimation running on a Jetson Xavier via Docker and the ZED SDK}
-        \resumeItem{Enabled repeatable and measurable experimentation by delivering reliable perception based position estimates as a key feedback input to closed-loop control algorithms, directly supporting researchers in collecting valid experimental data}
+        \resumeItem{Implemented MoveIt2 for joint trajectory solving and planning for articulated wheel legged rover. Created simulation environment in Gazebo for validating MoveIt2 with ros2\_canopen's VirtualCAN to pass real CAN messages to simulate real motor drivers.}
+        \resumeItem{Created Xbox joystick teleoperation package that sends twist commands to the solver, enabling realtime user control of the rover. Validated in Gazebo then real hardware test}
+        \resumeItem{Designed and implemented perception based position estimation system, initially prototyping offboard ArUco marker based tracking with a stationary camera, then migrating to an onboard ZED stereo camera, inferencing on a Jetson AGX Xavier running a Docker container, wirelessly streaming data over network }
+        \resumeItem{Enabled repeatable and measurable experimentation by delivering reliable position estimates for feedback critical for closed-loop control algorithms, alongside directly supporting researchers in collecting valid experimental data}
         \resumeItemListEnd
 
     \resumeSubheading
