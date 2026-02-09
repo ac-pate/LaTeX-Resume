@@ -1,0 +1,95 @@
+%-------------------------
+% Cover Letter in LaTeX
+% Formatting based on Resume
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, linkcolor=linkblue, urlcolor=linkblue, citecolor=linkblue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[charter]{mathdesign}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+% Define custom blue colors to match PDF
+\definecolor{headerblue}{RGB}{37,150,190}
+\definecolor{linkblue}{RGB}{0,0,238}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large\color{black}
+}{}{0em}{}[\color{headerblue}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Achal Patel} \\ \vspace{2pt}
+    \small \faPhone\ 438-979-5673 $|$ 
+    \href{mailto:Achalypatel3403@gmail.com}{\faEnvelope\ \underline{Achalypatel3403@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/achal-patel}{\faLinkedin\ \underline{linkedin.com/achal-patel}} $|$
+    \href{https://github.com/ac-pate}{\faGithub\ \underline{github.com/ac-pate}}
+\end{center}
+
+\vspace{0.5in}
+
+\today
+
+\vspace{0.2in}
+
+Hiring Manager \\
+\textbf{[Company Name]} \\
+\textbf{[Address / City, State]}
+
+\vspace{0.3in}
+
+\textbf{Re: Application for Internship / Co-op Position}
+
+\vspace{0.2in}
+
+To the Hiring Team,
+
+Software engineering for physical systems requires a different mindset than standard application development; code here does not just move data, it moves the world. My background is rooted in this reality, from validating mission-critical 800G Ethernet hardware at Microchip Technology to designing fault-tolerant embedded control systems for autonomous rovers. I have always gravitated towards the intersection of hardware and software because that is where the most critical engineering challenges exist. I am applying to [Company Name] because your commitment to building robust, high-performance systems resonates with my own drive to engineer solutions that simply cannot fail.
+
+I offer a skillset built on rigor and versatility. I have developed hardware-in-the-loop validation frameworks using Pytest and SystemVerilog, architected real-time control software in C++, and led the full-stack deployment of IoT networks on embedded Linux platforms. Whether I am optimizing RTOS tasks, writing VHDL for FPGA logic, or debugging CAN bus communication on a rover, I focus on reliability and efficiency. I am eager to bring this disciplined, embedded-first approach to your engineering team and contribute immediately to your ongoing projects.
+
+\vspace{0.2in}
+
+Sincerely,
+
+\vspace{0.1in}
+
+Achal Patel
+
+\end{document}

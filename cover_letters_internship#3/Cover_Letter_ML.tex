@@ -1,0 +1,95 @@
+%-------------------------
+% Cover Letter in LaTeX
+% Formatting based on Resume
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, linkcolor=linkblue, urlcolor=linkblue, citecolor=linkblue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[charter]{mathdesign}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+% Define custom blue colors to match PDF
+\definecolor{headerblue}{RGB}{37,150,190}
+\definecolor{linkblue}{RGB}{0,0,238}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large\color{black}
+}{}{0em}{}[\color{headerblue}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Achal Patel} \\ \vspace{2pt}
+    \small \faPhone\ 438-979-5673 $|$ 
+    \href{mailto:Achalypatel3403@gmail.com}{\faEnvelope\ \underline{Achalypatel3403@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/achal-patel}{\faLinkedin\ \underline{linkedin.com/achal-patel}} $|$
+    \href{https://github.com/ac-pate}{\faGithub\ \underline{github.com/ac-pate}}
+\end{center}
+
+\vspace{0.5in}
+
+\today
+
+\vspace{0.2in}
+
+Hiring Manager \\
+\textbf{[Company Name]} \\
+\textbf{[Address / City, State]}
+
+\vspace{0.3in}
+
+\textbf{Re: Application for Internship / Co-op Position}
+
+\vspace{0.2in}
+
+To the Hiring Team,
+
+The most compelling engineering challenges today lie at the intersection of raw data and physical action. My journey into machine learning was not born from a desire to tune hyperparameters in a vacuum, but to solve tangible, complex problems that traditional algorithms could not touch. This pragmatic approach led me to win a Kaggle competition against PhD candidates by designing a hybrid Transformer-CNN architecture for RNA folding prediction, proving that thoughtful architecture often beats brute force. I see that same rigorous, results-driven philosophy in the work being done at [Company Name], which is why I am compelled to apply for this role.
+
+I specialize in building systems that must perform reliably, from deploying EKF sensor fusion algorithms for vehicle tracking to implementing VLA (Vision-Language-Action) models for bimanual robotic control. My experience spans the full stack: running inference on edge devices like the Jetson AGX Xavier, managing data collection pipelines for imitation learning, and architecting custom deep learning solutions using PyTorch and Hugging Face. I am looking for a team where I can apply this mix of theoretical understanding and deployment experience to solve hard, uncompromising technical problems. I believe my background makes me a strong fit for the challenges you are tackling.
+
+\vspace{0.2in}
+
+Sincerely,
+
+\vspace{0.1in}
+
+Achal Patel
+
+\end{document}
