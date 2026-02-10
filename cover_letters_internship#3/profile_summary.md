@@ -41,6 +41,6 @@
 - **Constraint:** Always strictly 1 page, concise, "Charter" font style (Latex).
 
 ## Key Themes for Future Cover Letters
-- **Robotics:** Emphasize the "Pivot," CEC win, and full-stack hardware-to-autonomy skills.
+- **Robotics:**  CEC win, and full-stack hardware-to-autonomy skills.
 - **ML/AI:** Emphasize the architecture design (RNA Folding) and VLA/Imitation Learning.
 - **SWE/Embedded:** Emphasize reliability, validation (Microchip), and "mission-critical" mindset.
