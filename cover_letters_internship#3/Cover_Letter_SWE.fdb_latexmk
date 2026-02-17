@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1770702737.12654 "d:/Desktop/Concordia/COOP/Internship #3/resume/cover_letters_internship#3/Cover_Letter_Robotics.tex" "Cover_Letter_Robotics.pdf" "Cover_Letter_Robotics" 1770702740.93 0
-  "Cover_Letter_Robotics.aux" 1770702740 280 6b828094e00234c0864beebb1893eb25 "pdflatex"
-  "Cover_Letter_Robotics.out" 1770702739 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Cover_Letter_Robotics.tex" 1770702733 4494 bfbb2e95ed04c073dd55f86d89a2452d ""
+["pdflatex"] 1770858227.80632 "d:/Desktop/Concordia/COOP/Internship #3/resume/cover_letters_internship#3/Cover_Letter_SWE.tex" "Cover_Letter_SWE.pdf" "Cover_Letter_SWE" 1770858230.63295 2
+  "Cover_Letter_SWE.aux" 1770858230 280 6b828094e00234c0864beebb1893eb25 "pdflatex"
+  "Cover_Letter_SWE.out" 1770858229 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Cover_Letter_SWE.tex" 1770858221 3882 708baa0229f0a0a2d1373dc5137885ac ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1765764873 2920 d63721872b8c77041b88e51b8f7c291d ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1765764873 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1765764873 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -34,7 +34,6 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb" 1765763670 34869 e1ce30bc89749102259639e60ab677b3 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb" 1765764873 204258 aba4eee5a17f42be814f3d784d0cfb5a ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb" 1765764873 295323 07c90be888af62cddcbea2d451a520d3 ""
-  "c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb" 1765766041 9238 3c516030e42b53cb3fca729a5ac39dc4 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb" 1765766041 26162 bd4b2cdc5229167b72fc13a07768bc17 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb" 1765766041 9243 502d35497cb43eb13fdc05aa0b9f0ab4 ""
   "c:/texlive/2025/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchb8t.vf" 1765766041 2224 1b7f397f83969596ba27f849a2540080 ""
@@ -126,10 +125,10 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1765768563 5587484 30eee748fa419a911c40b0c750dd21ba ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1765768887 3635706 cad406f7a3ce3417d788d88687fc5f0b ""
   "c:/texlive/2025/texmf.cnf" 1765768520 713 e69b156964470283e0530f5060668171 ""
-  "d:/Desktop/Concordia/COOP/Internship #3/resume/cover_letters_internship#3/Cover_Letter_Robotics.tex" 1770702733 4494 bfbb2e95ed04c073dd55f86d89a2452d ""
+  "d:/Desktop/Concordia/COOP/Internship #3/resume/cover_letters_internship#3/Cover_Letter_SWE.tex" 1770858221 3882 708baa0229f0a0a2d1373dc5137885ac ""
   (generated)
-  "Cover_Letter_Robotics.aux"
-  "Cover_Letter_Robotics.log"
-  "Cover_Letter_Robotics.out"
-  "Cover_Letter_Robotics.pdf"
+  "Cover_Letter_SWE.aux"
+  "Cover_Letter_SWE.log"
+  "Cover_Letter_SWE.out"
+  "Cover_Letter_SWE.pdf"
   (rewritten before read)

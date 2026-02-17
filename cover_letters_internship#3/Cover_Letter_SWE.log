@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  10 FEB 2026 00:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  11 FEB 2026 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Desktop/Concordia/COOP/Internship #3/resume/cover_letters_internship#3/Cover_Letter_Robotics.tex"
-(d:/Desktop/Concordia/COOP/Internship #3/resume/cover_letters_internship#3/Cover_Letter_Robotics.tex
+**"d:/Desktop/Concordia/COOP/Internship #3/resume/cover_letters_internship#3/Cover_Letter_SWE.tex"
+(d:/Desktop/Concordia/COOP/Internship #3/resume/cover_letters_internship#3/Cover_Letter_SWE.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -466,39 +466,40 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip84
 \RaggedRightParindent=\skip85
 \JustifyingParindent=\skip86
-) (c:/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex) (./Cover_Letter_Robotics.aux)
-\openout1 = `Cover_Letter_Robotics.aux'.
+) (c:/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+No file Cover_Letter_SWE.aux.
+\openout1 = `Cover_Letter_SWE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 59.
-LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 59.
- (c:/texlive/2025/texmf-dist/tex/latex/mathdesign/mdacmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 88.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 88.
+(c:/texlive/2025/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 59.
-LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 59.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 88.
+LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 88.
  (c:/texlive/2025/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    ... okay on input line 88.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count302
@@ -513,93 +514,102 @@ LaTeX Font Info:    ... okay on input line 59.
 \makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks31
 )
-Package hyperref Info: Link coloring ON on input line 59.
- (./Cover_Letter_Robotics.out) (./Cover_Letter_Robotics.out)
+Package hyperref Info: Link coloring ON on input line 88.
 \@outlinefile=\write3
-\openout3 = `Cover_Letter_Robotics.out'.
+\openout3 = `Cover_Letter_SWE.out'.
 
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 63.
+(Font)              scaled to size 10.51207pt on input line 92.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 23.88496pt on input line 63.
+(Font)              scaled to size 23.88496pt on input line 92.
 LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
-(Font)              scaled to size 23.88496pt on input line 63.
+(Font)              scaled to size 23.88496pt on input line 92.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 64.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 64.
+(Font)              scaled to size 9.60007pt on input line 93.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 93.
  (c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 64.
+(Font)              scaled to size 9.60007pt on input line 93.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 64.
+(Font)              scaled to size 6.72005pt on input line 93.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 64.
-LaTeX Font Info:    Trying to load font information for OML+mdbch on input line 64.
+(Font)              scaled to size 4.80003pt on input line 93.
+LaTeX Font Info:    Trying to load font information for OML+mdbch on input line 93.
  (c:/texlive/2025/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 9.60007pt on input line 64.
+(Font)              scaled to size 9.60007pt on input line 93.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 6.72005pt on input line 64.
+(Font)              scaled to size 6.72005pt on input line 93.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 4.80003pt on input line 64.
-LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line 64.
+(Font)              scaled to size 4.80003pt on input line 93.
+LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line 93.
  (c:/texlive/2025/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 64.
+(Font)              scaled to size 9.60007pt on input line 93.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 64.
+(Font)              scaled to size 6.72005pt on input line 93.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 64.
-LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line 64.
+(Font)              scaled to size 4.80003pt on input line 93.
+LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line 93.
  (c:/texlive/2025/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 64.
+(Font)              scaled to size 9.60007pt on input line 93.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 64.
+(Font)              scaled to size 6.72005pt on input line 93.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 64.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 64.
+(Font)              scaled to size 4.80003pt on input line 93.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 93.
  (c:/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 64.
+(Font)              scaled to size 9.60007pt on input line 93.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 64.
+(Font)              scaled to size 6.72005pt on input line 93.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 64.
-LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line 64.
+(Font)              scaled to size 4.80003pt on input line 93.
+LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line 93.
  (c:/texlive/2025/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 64.
+(Font)              scaled to size 9.60007pt on input line 93.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 64.
+(Font)              scaled to size 6.72005pt on input line 93.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 64.
-LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line 64.
+(Font)              scaled to size 4.80003pt on input line 93.
+LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line 93.
  (c:/texlive/2025/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 64.
+(Font)              scaled to size 9.60007pt on input line 93.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 64.
+(Font)              scaled to size 6.72005pt on input line 93.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 64.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 65.
+(Font)              scaled to size 4.80003pt on input line 93.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 94.
  (c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 66.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 95.
  (c:/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 66.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 95.
+
+Runaway argument?
+d:/Desktop/Concordia/COOP/Internship #3/resume/cover_letters_internship#3/Cover_Letter_SWE.tex:119: Paragraph ended before \T1\. was complete.
+<to be read again> 
+                   \par 
+l.119 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -608,27 +618,34 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./Cover_Letter_Robotics.aux)
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./Cover_Letter_SWE.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
  ***********
-Package rerunfilecheck Info: File `Cover_Letter_Robotics.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `Cover_Letter_SWE.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Cover_Letter_SWE.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16519 strings out of 467538
- 276574 string characters out of 5423724
- 677448 words of memory out of 5000000
- 45193 multiletter control sequences out of 15000+600000
+ 16509 strings out of 467538
+ 276229 string characters out of 5423724
+ 674479 words of memory out of 5000000
+ 45189 multiletter control sequences out of 15000+600000
  654804 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1389b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb>
-Output written on Cover_Letter_Robotics.pdf (1 page, 59382 bytes).
+ 75i,11n,79p,903b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb>
+Output written on Cover_Letter_SWE.pdf (1 page, 56274 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
